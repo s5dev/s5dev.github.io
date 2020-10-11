@@ -7,14 +7,14 @@ highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: dbyll
+title: shivasurya
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Shivasurya
 
 description: Stylish Jekyll Theme
 author:
