@@ -8,7 +8,7 @@ description: DOM Cross-Site Scripting attack on leetcode.com.
 
 Reflected XSS (Cross-Site Scripting) attack is one my favourite vulnerability category as it's quite easy to exploit by checking for params as source and rendering DOM as sink.
 
-### Maintaining and security third party dependencies
+### Problem
 
 The core problem of Reflected Cross-Site scripting attack is appending the URL parameter values in the DOM without validation or filtering. Though the reflected XSS requires user interaction by visiting the page or clicking on links in real life attacks, peoples should think about Iframe tags which doesn't require any interaction to load them on other third party web pages.
 
