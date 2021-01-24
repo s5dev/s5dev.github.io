@@ -32,7 +32,7 @@ categories_path: categories.html
 tags_path: tags.html
 
 # set it as url of an image
-sidebar_background_image: https://media1.popsugar-assets.com/files/thumbor/cgnRmw77PNgA3W3CAE3M5W-ExMM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/03/24/730/n/1922441/tmp_CpKj6G_bc68185c865787b7_GettyImages-520831261.jpg
+sidebar_background_image: 
 
 BASE_PATH:
 
