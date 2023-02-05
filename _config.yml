@@ -32,7 +32,7 @@ categories_path: categories.html
 tags_path: tags.html
 
 # set it as url of an image
-sidebar_background_image: 
+sidebar_background_image: /assets/media/canada.jfif
 
 BASE_PATH:
 
