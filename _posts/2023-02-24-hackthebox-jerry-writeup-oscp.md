@@ -78,7 +78,7 @@ Finished nikto scan
 
 #### Suspect 1
 
-If you're familiar with Apache Tomcat and Java (JSP) based development, You'll certainly created a reverse shell out of this `Tomcat Manager` exposed in port `8080`. After checking the Nikto results, looks like `Tomcat Manager` has been exposed and it has few passwords in `<TOMCAT_HOME>/conf/tomcat-users.xml`. While trying to perform login, the error page actually exposes the password.
+If you're familiar with Apache Tomcat and Java (JSP) based development, You'll certainly create a reverse shell out of this `Tomcat Manager` exposed in port `8080` with zero assistance from tooling. After checking the Nikto results, looks like `Tomcat Manager` has been exposed and it has few passwords in `<TOMCAT_HOME>/conf/tomcat-users.xml`. While trying to perform login, the error page actually exposes the password.
 
 ![Hackthebox - Jerry VM - Tomcat Manager Password exposure](/assets/media/htb-jerry-enumeration-2.png)
 
