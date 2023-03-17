@@ -9,7 +9,7 @@ description: A comprehensive writeup on HackTheBox Active VM which helps learn a
 
 ### Quick Overview
 
-[Active](https://app.hackthebox.com/machines/144) is one of the easy Active Directory focused Windows Box from [TJNull OSCP Practice list](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#). It's one of those easy machine where you get initial foothold via SMB `Replication` share leak & escalate privileges using Active Directory weakness.
+[Active](https://app.hackthebox.com/machines/Active) is one of the easy Active Directory focused Windows Box from [TJNull OSCP Practice list](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#). It's one of those easy machine where you get initial foothold via SMB `Replication` share leak & escalate privileges using Active Directory weakness.
 
 ![Active VM - HacktheBox Logo](/assets/media/htb-active-logo.png)
 
