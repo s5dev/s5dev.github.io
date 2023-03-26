@@ -15,6 +15,23 @@
 	<meta name="revisit-after" content="2 days">
 	<meta name="author" content="Shivasurya">
 
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@sshivasurya">
+	<meta name="twitter:creator" content="@sshivasurya">
+	{% if page.title %}
+	<meta name="twitter:title" content="{{ page.title }}">
+	{% else %}
+	<meta name="twitter:title" content="{{ site.title }}">
+	{% endif %}
+	{% if page.url %}
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+	{% endif %}
+	{% if page.description %}
+	<meta name="twitter:description" content="{{ page.description }}">
+	{% else %}
+	<meta name="twitter:description" content="{{ site.description }}">
+	{% endif %}
+
 	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
