@@ -4,6 +4,7 @@ title: HackTheBox Active Writeup - Active Directory - OSCP Practice
 categories: [security, hackthebox, oscp-writeups, friday-gems, active-directory]
 tags: [security, hackthebox, oscp]
 description: A comprehensive writeup on HackTheBox Active VM which helps learn and practice for OSCP Active Directory Track.
+comments: true
 ---
 
 

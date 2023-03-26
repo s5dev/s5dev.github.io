@@ -4,6 +4,7 @@ title: HackTheBox Jerry Writeup - OSCP Practice
 categories: [security, hackthebox, oscp-writeups, thursday-snack]
 tags: [security, hackthebox, oscp]
 description: A comprehensive writeup on HackTheBox Jerry VM which helps learn and practice for OSCP.
+comments: true
 ---
 
 

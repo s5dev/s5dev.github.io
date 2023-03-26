@@ -4,6 +4,7 @@ title: HackTheBox OSCP Writeups - Shivasurya.me
 categories: [security, hackthebox, oscp-writeups]
 tags: [security, hackthebox, oscp]
 description: A Index of HackTheBox OSCP Machine Writeups.
+comments: true
 ---
 
 

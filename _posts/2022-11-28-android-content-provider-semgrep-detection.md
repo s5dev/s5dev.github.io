@@ -4,6 +4,7 @@ title: Detecting Android Content Provider APIs with Semgrep Rules
 categories: [security, android, android-security]
 tags: [security, android]
 description: Content provider APIs are powerful way to expose data to internal or external apps within Android ecosystem. However, there are lot of ways these APIs are implemented with flaws that leads to serious data leakage and even Remote code execution.
+comments: true
 ---
 
 Content Provider is one of the powerful APIs which helps Android developers programmatically expose resource content within Android ecosystem via Intents. One could easily write those queries easily by extending the `ContentProvider` class and implementing those methods and accessing via URI (example: `android://com.zoho.example/database/:_data`). Though these Content Provider is a cupcake for developers, Unfortunately there are lot of vulnerabilities hidden within those APIs and with implementation part. 

@@ -4,6 +4,7 @@ title: Binary Search and Hidden Overflow 🪲
 categories: [security, programming, overflow]
 tags: [security, programming]
 description: Interesting post on integer overflow while performing a basic binary search
+comments: true
 ---
 
 Recently I was playing with overflow vulnerabilities help of `exploit.education` exercise which mostly covers basic heap, buffer overflow,

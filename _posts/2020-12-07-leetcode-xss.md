@@ -4,6 +4,7 @@ title: Cross-Site Scripting attack on Leetcode
 categories: [security, server, client-security]
 tags: [security, waf, xss]
 description: DOM Cross-Site Scripting attack on leetcode.com.
+comments: true
 ---
 
 Reflected XSS (Cross-Site Scripting) attack is my favorite vulnerability category as it's relatively easy to exploit by checking for params as the source and rendering DOM as the sink.

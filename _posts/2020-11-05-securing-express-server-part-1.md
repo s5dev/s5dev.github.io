@@ -4,6 +4,7 @@ title: Securing an ExpressJS server - Part 1
 categories: [security, server, nodejs]
 tags: [security, waf]
 description: Strategies for securing expressjs server.
+comments: true
 ---
 
 As Javascript programming language popularity increases, platforms have already started adopting it from native desktop apps, mobile, browser to server-side, giving rise to exciting frameworks, style guides, tools.

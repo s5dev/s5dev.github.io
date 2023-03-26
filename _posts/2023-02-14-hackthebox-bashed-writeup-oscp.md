@@ -4,6 +4,7 @@ title: HackTheBox Bashed Writeup - OSCP Practice List
 categories: [security, hackthebox, oscp-writeups, thursday-snack]
 tags: [security, hackthebox, oscp]
 description: A comprehensive writeup on HackTheBox Bashed VM which helps learn and practice for OSCP.
+comments: true
 ---
 
 

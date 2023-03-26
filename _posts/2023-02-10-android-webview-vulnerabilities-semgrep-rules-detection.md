@@ -4,6 +4,7 @@ title: Detecting Android WebView Vulnerable Configurations with Semgrep Rules - 
 categories: [security, android, android-security]
 tags: [security, android]
 description: Android Webview has multiple security configuration that may lead to security vulnerabilities. <br /> We'll take a deep dive into those webview configs, breakdown vulnerable configs and leverage semgrep to identify those pattern.
+comments: true
 ---
 
 Android WebView widget provides APIs that help developers seamlessly integrate webpage contents within Android application. Advancement in Webview & Chrome Custom Tabs lead to [exponential growth in webview based mobile development](https://tomtunguz.com/mobile-only-saas/) platforms such as `Ionic framework`, `JQuery Mobile`, `Adobe Phonegap` later open-sourced as `Cordova Project`, `React Native`. However the race to capture the mobile development market, immature WebView APIs and lack of security guidance lead to multiple vulnerabilities and exploits. In today's blog post, we'll deep dive into multiple WebView vulnerability configurations and leverage semgrep to detect those configuration real time.
