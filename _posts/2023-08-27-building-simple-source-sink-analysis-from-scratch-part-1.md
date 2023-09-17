@@ -157,7 +157,7 @@ boolean isReachable = analysis.isReachable(sourceMethod, sinkMethod);
 System.out.println("Is " + sinkMethod + " reachable from " + sourceMethod + "? " + isReachable);
 ```
 
-### Scaling from inter-procedural to intra-procedural
+### Scaling to inter-procedural from intra-procedural
 
 The above example is an intra-procedural analysis where we could detect the source and sink reachability within single Java file. The inter-procedural analysis is where we could detect the source and sink reachability across multiple Java files. The inter-procedural analysis is more complex than intra-procedural analysis. The inter-procedural analysis requires the knowledge of call graph. The call graph is a directed graph that represents calling relationships between methods in a program. I'll be covering the inter-procedural analysis in the next blog post.
 
