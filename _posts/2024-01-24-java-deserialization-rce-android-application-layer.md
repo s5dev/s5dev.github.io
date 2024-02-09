@@ -10,7 +10,7 @@ comments: true
 
 ### Overview
 
-In this post, we will explore code execution using Java & Kotlin Deserialization in Android Application. Additionally, We will discuss the Gadget Chain, Detection and Exploitation technique specific to Android. Achieving code execution in server side application via Java deserialization has higher chance of success than in client side android application. This is due to limitation of variety of loaded classes in android application. For instance `com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl` is available in openJDK but not in Android JDK. These limitation can be a blocker for loading arbitrary classes and executing payload (mostly compiled bytecode) in Android application. Well there are lot of deserialization vulnerabilities is published out there such as
+In this post, we will explore code execution using Java & Kotlin Deserialization in Android Application. Additionally, We will discuss the Gadget Chain, Detection and Exploitation technique specific to Android. Achieving code execution in server side application via Java deserialization has higher chance of success than in client side android application. This is due to limitation of variety of loaded classes in android application. For instance `com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl` is available in openJDK but not in Android JDK (but with modification). These limitation can be a blocker for loading arbitrary classes and executing payload (mostly compiled bytecode) in Android application. Well there are lot of deserialization vulnerabilities is published out there such as
 
 1. Jackson (Jackson databind) Deserialization with crafted JSON
 2. Apache Commons-collections Deserialization with crafted payload
