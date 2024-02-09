@@ -78,7 +78,7 @@ function describeJavaClass(className) {
 
 ### Finding Gadgets
 
-Finding gadgets is the crux of exploitation, it requires understanding of the library and the gadget chain. One simple way is to use [GadgetInspector)(https://github.com/JackOfMostTrades/gadgetinspector). The other way is to identify vulnerable sinks in the library such as `Runtime.exec` or invoking implementation of serialized class using reflection or `Class.forName` and then invoking `newInstance`. The second method is rare and requires lot of reading and understanding of the library. A good example is `CVE-2022-25845` - Fastjson Auto Type Bypass RCE vulnerability.
+Finding gadgets is the crux of exploitation, it requires understanding of the library and the gadget chain. One simple way is to use [GadgetInspector](https://github.com/JackOfMostTrades/gadgetinspector). The other way is to identify vulnerable sinks in the library such as `Runtime.exec` or invoking implementation of serialized class using reflection or `Class.forName` and then invoking `newInstance`. The second method is rare and requires lot of reading and understanding of the library. A good example is `CVE-2022-25845` - Fastjson Auto Type Bypass RCE vulnerability.
 
 ### Gadget Chain
 
