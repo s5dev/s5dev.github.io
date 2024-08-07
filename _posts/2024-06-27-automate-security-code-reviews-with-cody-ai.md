@@ -9,11 +9,9 @@ comments: true
 
 ### Intro
 
-![Toronto Skyline](/assets/media/yyz.webp)
-
 ### Need for semi-autonomous security code reviews
 
-My job as a security engineer (application security context) is to read source code and perform security reviews. Most of the time, mainly corelate the source code with frameworks & libraries, understand context where the code executes and enumerate all security risks. While there are lot of second generation SAST scanning tools in the market such as Semgrep, CodeQL which is good at identifying patterns, eliminate false positive, executes and brings up results in minutes. I believe,
+My job as a security engineer (application security context) is to read source code and perform security reviews. Most of the time, mainly corelate the source code with frameworks & libraries, understand context where the code executes and enumerate all security risks. While there are lot of second generation SAST scanning tools in the market which is good at identifying patterns, eliminate false positive, executes and brings up results in minutes. I believe,
 
 - First generation SAST tools are based on symbolic execution and takes a lot of time to execute with lot of false postives
 - Second generation SAST tools are really fast, identify patterns, tune rules, reduce false positives and still human review is required
@@ -23,7 +21,7 @@ My job as a security engineer (application security context) is to read source c
 
 Having worked as software engineer & security engineer for more than 5 years now, I can confidently say that manual effort is the biggest bottleneck in the second generation SAST tools.
 
-For example, [SAST tooling & experts](https://semgrep.dev/r?q=typescript.react.security.audit.react-dangerouslysetinnerhtml) boldly claim using `dangerouslySetInnerHTML` is a security risk in reactjs based application. I can 100% say this is **false positive** because
+For example, SAST tooling & experts boldly claim using `dangerouslySetInnerHTML` is a security risk in reactjs based application. I can 100% say this is **false positive** because,
 
 #### What SAST can do:
 - Software Engineers and Developers are smart enough to know that `dangerouslySetInnerHTML` is a security risk but business usecases demand rendering html
@@ -48,23 +46,32 @@ Unlike calling GPT APIs, I have attempted to train a model from scratch, and loa
 
 | Code Review Task  | Capability  | Instruction fine-tuned LLM | SAST Tools  |
 |:--------|:-------------|:-------------:|:-------------:|
-| Spot vulnerable pattern | Pattern matching  | ✅ | ✅ |
+| Find vulnerable pattern | Pattern matching  | ✅ | ✅ |
 | Understand vulnerability class | Understand context | ✅ | ❌ |
 | Identify false positive | Better classifier  | ✅  | ❌  |
 | Reading through projects, multiple files | Fetch context  | ❌  | ❌  |
 
 ### Why Cody AI?
 
-The answer is simple, Context is King 👑 . No other assistant knows your codebase better than [Cody AI](https://sourcegraph.com/cody). Combining capabilities of LLM (kind of NLP tasks) and finding perfect context from the codebase can help in performing security code reviews.
+Context is King 👑 . No other assistant knows your codebase better than [Cody AI](https://sourcegraph.com/cody). Combining capabilities of LLM (kind of NLP tasks) and finding perfect context from the codebase can help in performing security code reviews.
 
 ### Show me the code 🧑‍💻
 
 Cody has experimental CLI support for chat, autocomplete by specifying repo as context.
 
-> npm install -g @sourcegraph/cody-agent
+> npm install -g @sourcegraph/cody
 
 ```bash
 # Ask Cody a question (with Sourcegraph Enterprise repository context):
-cody-agent experimental-cli chat --context-repo github.com/sourcegraph/sourcegraph --show-context -m 'how is authentication handled in sourcegraph?'
+cody cli chat --context-repo github.com/sourcegraph/sourcegraph --show-context -m 'how is authentication handled in sourcegraph?'
 ```
 
+### How I integrate Cody AI into my workflow?
+
+While i use Cody regularly for code completion and chat, I have integrated Cody into my workflow SAST tooling to perform additional security code reviews.
+
+![Sherlock powered by Cody AI](/assets/media/sherlock.png)
+
+### Closing Note:
+
+For bugs or hugs & discussion, DM in [Twitter](https://twitter.com/sshivasurya). Opinions are my own and not the views of my employer.
