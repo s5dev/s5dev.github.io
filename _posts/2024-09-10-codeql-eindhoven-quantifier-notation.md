@@ -38,7 +38,7 @@ where p.hasName("abc.aspectj.ast")
 select sum(CompilationUnit cu | cu.getPackage()=p | cu.getNumberOfLines())
 ```
 
-`sum(CompilationUnit cu | cu.getPackage()=p | cu.getNumberOfLines())` where `cu` is quantifier (for all) variable and in the next step gets filtered by package name and finally get the number of lines as Integer which gets added to the sum. This notiation gets executed for each compilation unit and compared with package name (global variable) before adding to the sum.
+`sum(CompilationUnit cu | cu.getPackage()=p | cu.getNumberOfLines())` where `cu` is quantifier (for all) variable and in the next step gets filtered by package name and finally get the number of lines as Integer which gets added to the sum. This notation gets executed for each compilation unit and compared with package name (global variable) before adding to the sum.
 
 I really like the above query has basically filtered the package name first before generating the sum thus reducing the number of times the `cu.getPackage()=p` gets compared thus reducing the search space.
 
