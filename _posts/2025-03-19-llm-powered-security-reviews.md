@@ -19,10 +19,10 @@ When used in conjunction with SAST tools, LLMs can significantly boost the effec
 
 As I continue to explore research publications, delve into the internals of LLMs, and conduct various experiments, I find myself reflecting on a few key questions to validate these results mathematically:
 
-RQ1. How can we mathematically prove the reliability of LLM findings?  
-RQ2. Can LLMs fail to identify certain edge cases or vulnerabilities? How can we mitigate this?  
-RQ3. What techniques are being used to provide additional context for security reviews?  
-RQ4. If LLMs are so effective, why aren’t they widely used to find vulnerabilities in open-source software (OSS)?  
+**RQ1. How can we mathematically prove the reliability of LLM findings?**
+**RQ2. Can LLMs fail to identify certain edge cases or vulnerabilities? How can we mitigate this?**
+**RQ3. What techniques are being used to provide additional context for security reviews?**
+**RQ4. If LLMs are so effective, why aren’t they widely used to find vulnerabilities in open-source software (OSS)?**
 
 Below, I’ll share my thoughts on these questions and how I approach leveraging LLMs for security reviews.
 
