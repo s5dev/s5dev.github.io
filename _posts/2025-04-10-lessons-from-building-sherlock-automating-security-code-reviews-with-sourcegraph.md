@@ -7,4 +7,4 @@ description: "Explore how Sherlock leverages Sourcegraph to automate security co
 comments: false
 ---
 
-Originally published on the [Sourcegraph Blog](Lessons from Building Sherlock: Automating Security Code Reviews with Sourcegraph).
+Originally published on the [Sourcegraph Blog](https://sourcegraph.com/blog/lessons-from-building-sherlock-automating-security-code-reviews-with-sourcegraph).
