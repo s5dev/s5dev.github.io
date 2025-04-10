@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Defining Boundaries & Sinks for Inter-procedural Source Sink Analysis - Part 3"
+title: "Defining Boundaries &amp; Sinks for Inter-procedural Source Sink Analysis - Part 3"
 categories: [static-analysis, sast]
 tags: [programming, productivity]
 description: "Defining Boundaries & Sinks for Inter-procedural Source Sink Analysis - Part 3"
