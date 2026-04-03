@@ -11,7 +11,7 @@ Open-source tools and projects I've built.
 <div class="section-label">Security Tooling</div>
 
 <div class="project-row">
-  <a href="https://codepathfinder.dev" class="project-name" target="_blank" rel="noopener">code-pathfinder ↗</a>
+  <a href="https://codepathfinder.dev" class="project-name" target="_blank" rel="noopener">Code Pathfinder ↗</a>
   <span class="project-desc">Static code analysis engine for modern security teams</span>
 </div>
 

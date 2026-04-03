@@ -61,7 +61,11 @@ a:hover {
   align-items: baseline;
   margin-bottom: 56px;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 12px 24px;
+}
+
+.nav > div:first-child {
+  white-space: nowrap;
 }
 
 .nav-name {

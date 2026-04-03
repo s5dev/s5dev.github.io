@@ -16,7 +16,7 @@ I'm a software security engineer based in Waterloo, Canada. I work at [Carta](ht
 <div class="about-section">
 <div class="about-text">
 
-I believe open-source levels the playing field in security. That's why I build [code-pathfinder](https://codepathfinder.dev), a static code analysis engine designed for modern security teams. I also created SecureFlow CLI, an AI-powered tool for hunting vulnerabilities at scale.
+I believe open-source levels the playing field in security. That's why I build [Code Pathfinder](https://codepathfinder.dev), a static code analysis engine designed for modern security teams. I also created SecureFlow CLI, an AI-powered tool for hunting vulnerabilities at scale.
 
 </div>
 </div>
