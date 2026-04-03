@@ -8,7 +8,7 @@ url: "/about/"
 <div class="about-section">
 <div class="about-text">
 
-I'm a software security engineer based in Waterloo, Canada. I work at [Carta](https://carta.com) where I focus on application security. Previously at Sourcegraph, Dropbox, and Yelp.
+I'm a senior software security engineer based in Waterloo, Canada. I work at [Carta](https://carta.com) where I focus on application security. Previously at Sourcegraph, Dropbox, and Yelp.
 
 </div>
 </div>
@@ -24,7 +24,7 @@ I believe open-source levels the playing field in security. That's why I build [
 <div class="about-section">
 <div class="about-text">
 
-I write about security vulnerabilities, static analysis, and the craft of building tools that find bugs before attackers do.
+I write about security vulnerabilities, static analysis, and the craft of building tools that find bugs before attackers do. I'm also listed on the [Google BugBounty Hall of Fame](https://bughunters.google.com/profile/41d08dfc-2316-41fa-8bb0-885f5401b011) and contribute to responsible disclosure via [HackerOne](https://hackerone.com/libcontainer).
 
 </div>
 </div>

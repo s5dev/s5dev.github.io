@@ -16,7 +16,26 @@ Open-source tools and projects I've built.
 </div>
 
 <div class="project-row">
-  <a href="https://github.com/shivasurya/secureflow-cli" class="project-name" target="_blank" rel="noopener">SecureFlow CLI ↗</a>
+  <a href="https://codepathfinder.dev/secureflow-ai" class="project-name" target="_blank" rel="noopener">SecureFlow CLI ↗</a>
   <span class="project-desc">AI-powered security scanning with 12+ model support</span>
+</div>
+
+<div class="project-row">
+  <a href="https://marketplace.visualstudio.com/items?itemName=codepathfinder.secureflow" class="project-name" target="_blank" rel="noopener">Secureflow AI Code Reviewer ↗</a>
+  <span class="project-desc">VS Code extension for AI-assisted security code reviews</span>
+</div>
+</div>
+
+<div class="section-divider">
+<div class="section-label">Bug Bounty & Security Research</div>
+
+<div class="project-row">
+  <a href="https://bughunters.google.com/profile/41d08dfc-2316-41fa-8bb0-885f5401b011" class="project-name" target="_blank" rel="noopener">Google VRP Hall of Fame ↗</a>
+  <span class="project-desc">Google Bug Bounty Hall of Fame recognition</span>
+</div>
+
+<div class="project-row">
+  <a href="https://hackerone.com/libcontainer" class="project-name" target="_blank" rel="noopener">HackerOne ↗</a>
+  <span class="project-desc">Responsible vulnerability disclosure</span>
 </div>
 </div>
