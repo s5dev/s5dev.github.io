@@ -34,20 +34,24 @@ I write about security vulnerabilities, static analysis, and the craft of buildi
 ### Experience
 
 <div class="timeline-item">
-  <span class="timeline-date">present</span>
-  <span class="timeline-content"><strong>Carta</strong>, Senior Software Engineer, Security</span>
+  <span class="timeline-date">May 2025 - present</span>
+  <span class="timeline-content"><strong>Carta</strong>, Senior Software Engineer</span>
 </div>
 <div class="timeline-item">
-  <span class="timeline-date">Jun 2023 – 2025</span>
+  <span class="timeline-date">May 2023 - Apr 2025</span>
   <span class="timeline-content"><strong>Sourcegraph</strong>, Security Engineer</span>
 </div>
 <div class="timeline-item">
-  <span class="timeline-date">Jun 2022 – Jun 2023</span>
-  <span class="timeline-content"><strong>Dropbox</strong>, Software Security Engineer, Application Security</span>
+  <span class="timeline-date">Jun 2022 - May 2023</span>
+  <span class="timeline-content"><strong>Dropbox</strong>, Security Software Engineer</span>
 </div>
 <div class="timeline-item">
-  <span class="timeline-date">Jun 2021 – Jun 2022</span>
-  <span class="timeline-content"><strong>Yelp</strong>, Software Engineer, Application Security</span>
+  <span class="timeline-date">Jun 2021 - Jun 2022</span>
+  <span class="timeline-content"><strong>Yelp</strong>, Software Engineer</span>
+</div>
+<div class="timeline-item">
+  <span class="timeline-date">May 2017 - Aug 2019</span>
+  <span class="timeline-content"><strong>Zoho Corporation</strong>, Member of Technical Staff</span>
 </div>
 
 </div>
