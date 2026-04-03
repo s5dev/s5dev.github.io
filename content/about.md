@@ -8,7 +8,7 @@ url: "/about/"
 <div class="about-section">
 <div class="about-text">
 
-I'm a senior software security engineer based in Waterloo, Canada. I work at [Carta](https://carta.com) where I focus on application security. Previously at Sourcegraph, Dropbox, and Yelp.
+I'm a senior software security engineer based in Waterloo, Canada. I work at [Carta](https://carta.com) where I build security features for customers, including identity, access management, and authentication systems. Previously at Sourcegraph, Dropbox, and Yelp.
 
 </div>
 </div>
