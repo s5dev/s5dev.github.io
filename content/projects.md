@@ -52,4 +52,9 @@ Open-source tools and projects I've built.
   <a href="https://hackerone.com/libcontainer" class="project-name" target="_blank" rel="noopener">HackerOne ↗</a>
   <span class="project-desc">Responsible vulnerability disclosure</span>
 </div>
+
+<div class="project-row">
+  <a href="https://proton.me/blog/protonmail-security-contributors" class="project-name" target="_blank" rel="noopener">ProtonMail Security Contributors ↗</a>
+  <span class="project-desc">Recognized for responsible disclosure to ProtonMail</span>
+</div>
 </div>
