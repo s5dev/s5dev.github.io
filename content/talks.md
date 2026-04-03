@@ -33,6 +33,15 @@ Talks I've given at meetups and community events on software security, static an
 </div>
 
 <div class="talk-item">
+  <div class="talk-title">Sherlock: AI-Powered Security Code Reviews on Pull Requests</div>
+  <div class="talk-meta">AI Tinkerers Waterloo, Builders Club, Waterloo, Canada, April 2025</div>
+  <div class="talk-links">
+    <a href="https://www.linkedin.com/posts/cvanvlack_ai-tinkerers-waterloo-activity-7320416110279806976-zx1m">event recap</a>
+    <a href="/2024/06/27/automate-security-code-reviews-with-cody-ai/">blog post</a>
+  </div>
+</div>
+
+<div class="talk-item">
   <div class="talk-title">Exploiting Provider Components in Android Apps for Bug Bounties</div>
   <div class="talk-meta">null Chennai, OWASP Combined Meet, Chennai, India, March 2019</div>
   <div class="talk-links">
