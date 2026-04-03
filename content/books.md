@@ -20,6 +20,7 @@ Books I've read, loosely grouped by year. Heavy Kindle reader, always open to re
 <div class="book-category-label">AI & Engineering</div>
 
 <div class="book-item"><a href="https://www.baseten.co/inference-engineering/" class="book-title">Inference Engineering</a> <span class="book-author">by Philip Kiely (Baseten)</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/3828902-thinking-in-systems" class="book-title">Thinking in Systems: A Primer</a> <span class="book-author">by Donella H. Meadows</span></div>
 </div>
 
 ## 2025
