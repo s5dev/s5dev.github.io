@@ -41,6 +41,15 @@ Open-source tools and projects I've built.
 </div>
 
 <div class="section-divider">
+<div class="section-label">Bootstrapped</div>
+
+<div class="project-row">
+  <span class="project-name">GoSchedule.io</span>
+  <span class="project-desc">Appointment scheduling SaaS bootstrapped to $25K ARR, built and handled sales (shutdown)</span>
+</div>
+</div>
+
+<div class="section-divider">
 <div class="section-label">Bug Bounty & Security Research</div>
 
 <div class="project-row">
