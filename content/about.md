@@ -61,8 +61,8 @@ I write about security vulnerabilities, static analysis, and the craft of buildi
 ### Education
 
 <div class="timeline-item">
-  <span class="timeline-date">2018 – 2020</span>
-  <span class="timeline-content"><strong>University of Waterloo</strong>, MASc, Electrical & Computer Engineering</span>
+  <span class="timeline-date">2019 - 2021</span>
+  <span class="timeline-content"><strong>University of Waterloo</strong>, MMath, Computer Science. <a href="https://uwspace.uwaterloo.ca/items/873b20db-7d90-414a-b118-1096bbf45dd7">Thesis: Detecting Exploitable Vulnerabilities in Android Applications</a></span>
 </div>
 
 </div>

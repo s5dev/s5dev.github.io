@@ -12,8 +12,10 @@ Research interests: Software Security, Static Code Analysis, Software Engineerin
 <div class="pub-item">
   <div class="pub-title">Detecting Exploitable Vulnerabilities in Android Applications</div>
   <div class="pub-authors">S Sankarapandian</div>
-  <div class="pub-venue">University of Waterloo, 2021 · Cited by 2</div>
+  <div class="pub-venue">MMath Thesis, University of Waterloo, 2021 · Cited by 2</div>
   <div class="pub-links">
+    <a href="https://uwspace.uwaterloo.ca/items/873b20db-7d90-414a-b118-1096bbf45dd7">Thesis</a>
+    <a href="https://uwspace.uwaterloo.ca/bitstream/handle/10012/17034/Sankarapandian_Shivasurya.pdf">PDF</a>
     <a href="https://scholar.google.ca/citations?user=T1tx3TIAAAAJ">Google Scholar</a>
   </div>
 </div>
