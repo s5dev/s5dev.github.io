@@ -27,6 +27,20 @@ Open-source tools and projects I've built.
 </div>
 
 <div class="section-divider">
+<div class="section-label">Android Libraries</div>
+
+<div class="project-row">
+  <a href="https://github.com/shivasurya/materialsteppers" class="project-name" target="_blank" rel="noopener">Material Steppers ↗</a>
+  <span class="project-desc">Material Design Stepper component for Android (102 stars)</span>
+</div>
+
+<div class="project-row">
+  <a href="https://github.com/shivasurya/FeedbackDialog" class="project-name" target="_blank" rel="noopener">FeedbackDialog ↗</a>
+  <span class="project-desc">Interactive feedback dialog for Android inspired by Google Maps (102 stars)</span>
+</div>
+</div>
+
+<div class="section-divider">
 <div class="section-label">Bug Bounty & Security Research</div>
 
 <div class="project-row">
