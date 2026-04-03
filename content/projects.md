@@ -45,7 +45,7 @@ Open-source tools and projects I've built.
 
 <div class="project-row">
   <a href="https://www.crunchbase.com/organization/goschedule" class="project-name" target="_blank" rel="noopener">GoSchedule.io ↗</a>
-  <span class="project-desc">Appointment scheduling SaaS bootstrapped $0 to $25K ARR, built and handled sales (shutdown)</span>
+  <span class="project-desc">Appointment scheduling SaaS built from scratch, bootstrapped $0 to $25K ARR (shutdown)</span>
 </div>
 </div>
 
