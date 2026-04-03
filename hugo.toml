@@ -1,0 +1,65 @@
+baseURL = "https://shivasurya.me/"
+languageCode = "en-us"
+title = "Shivasurya"
+description = "Software security engineer who believes open-source levels the playing field."
+
+[params]
+  author = "Shivasurya"
+  email = "shiva@shivasurya.me"
+  github = "shivasurya"
+  twitter = "sshivasurya"
+  linkedin = "shivasurya"
+  scholar = "https://scholar.google.ca/citations?user=T1tx3TIAAAAJ"
+  bio = "Senior Software Engineer, Security @ Carta | Prev @ Dropbox, Yelp"
+  googleAnalytics = "G-1FY99CSBP2"
+
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "writing"
+    url = "/writing/"
+    weight = 1
+  [[menu.main]]
+    name = "projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "talks"
+    url = "/talks/"
+    weight = 3
+  [[menu.main]]
+    name = "research"
+    url = "/research/"
+    weight = 4
+  [[menu.main]]
+    name = "books"
+    url = "/books/"
+    weight = 5
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 6
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "feed"
