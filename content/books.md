@@ -58,17 +58,17 @@ Books I've read, loosely grouped by year. Heavy Kindle reader, always open to re
 <div class="book-category">
 <div class="book-category-label">Security & Programming</div>
 
-<div class="book-item"><span class="book-title">The Tangled Web: A Guide to Securing Modern Web Applications</span> <span class="book-author">by Michal Zalewski</span></div>
-<div class="book-item"><span class="book-title">JavaScript for Hackers</span> <span class="book-author">by Gareth Heyes</span></div>
-<div class="book-item"><span class="book-title">Not With A Bug, But With A Sticker</span> <span class="book-author">by Ram Shankar</span></div>
-<div class="book-item"><span class="book-title">Writing An Interpreter In Go</span> <span class="book-author">by Thorsten Ball</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/11553604-the-tangled-web" class="book-title">The Tangled Web: A Guide to Securing Modern Web Applications</a> <span class="book-author">by Michal Zalewski</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/141410582-javascript-for-hackers" class="book-title">JavaScript for Hackers</a> <span class="book-author">by Gareth Heyes</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/78294325-not-with-a-bug-but-with-a-sticker" class="book-title">Not With A Bug, But With A Sticker</a> <span class="book-author">by Ram Shankar Siva Kumar</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/41632715" class="book-title">Writing An Interpreter In Go</a> <span class="book-author">by Thorsten Ball</span></div>
 </div>
 
 <div class="book-category">
 <div class="book-category-label">Non-Fiction & Business</div>
 
-<div class="book-item"><span class="book-title">Poor Charlie's Almanack</span> <span class="book-author">by Charles T. Munger</span></div>
-<div class="book-item"><span class="book-title">The Software Engineer's Guidebook</span> <span class="book-author">by Gergely Orosz</span></div>
-<div class="book-item"><span class="book-title">Same as Ever</span> <span class="book-author">by Morgan Housel</span></div>
-<div class="book-item"><span class="book-title">Secrets of Sand Hill</span> <span class="book-author">by Scott Kupor</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/944652.Poor_Charlie_s_Almanack" class="book-title">Poor Charlie's Almanack</a> <span class="book-author">by Charles T. Munger</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/201545491-the-software-engineer-s-guidebook" class="book-title">The Software Engineer's Guidebook</a> <span class="book-author">by Gergely Orosz</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/125116554-same-as-ever" class="book-title">Same as Ever</a> <span class="book-author">by Morgan Housel</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/42348376-secrets-of-sand-hill-road" class="book-title">Secrets of Sand Hill Road</a> <span class="book-author">by Scott Kupor</span></div>
 </div>
