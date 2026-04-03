@@ -32,4 +32,12 @@ Talks I've given at meetups and community events on software security, static an
   </div>
 </div>
 
+<div class="talk-item">
+  <div class="talk-title">Exploiting Provider Components in Android Apps for Bug Bounties</div>
+  <div class="talk-meta">null Chennai, OWASP Combined Meet, Chennai, India, March 2019</div>
+  <div class="talk-links">
+    <a href="https://null.community/event_sessions/2522-exploiting-provider-components-in-android-app-for-bug-bounties">event page</a>
+  </div>
+</div>
+
 *Interested in having me speak? [Get in touch](mailto:shiva@shivasurya.me).*
