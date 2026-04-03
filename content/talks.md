@@ -5,7 +5,7 @@ description: "Conference talks and presentations on software security and static
 url: "/talks/"
 ---
 
-Meetups, presentations, and demos on software security, static analysis, and open-source tooling.
+Talks I've given at meetups and community events on software security, static analysis, and open-source tooling.
 
 <div class="talk-item">
   <div class="talk-title">Code Pathfinder MCP: Stop Grepping, Start Querying</div>
