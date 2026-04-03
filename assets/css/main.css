@@ -1,0 +1,664 @@
+/* === Reset === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Base === */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #444;
+  background: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  color: #000;
+  text-decoration-thickness: 2px;
+}
+
+/* === Layout === */
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+/* === Skip Link (Accessibility) === */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 8px 16px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* === Navigation === */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 56px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.nav-name {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  letter-spacing: -0.3px;
+  text-decoration: none;
+}
+
+.nav-name:hover {
+  text-decoration: none;
+}
+
+.nav-title {
+  color: #999;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #555;
+  font-weight: 450;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+.nav-links a.active {
+  font-weight: 600;
+  color: #000;
+}
+
+/* === Hero / Homepage === */
+.hero-static {
+  font-size: 27px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.35;
+  letter-spacing: -0.5px;
+  margin-bottom: 6px;
+}
+
+.hero-flip-container {
+  height: 38px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.hero-flip-list {
+  list-style: none;
+  animation: flipDown 12s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+}
+
+.hero-flip-list li {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.35;
+  color: #000;
+}
+
+@keyframes flipDown {
+  0%, 20%   { transform: translateY(0); }
+  25%, 45%  { transform: translateY(-38px); }
+  50%, 70%  { transform: translateY(-76px); }
+  75%, 95%  { transform: translateY(-114px); }
+  100%      { transform: translateY(-152px); }
+}
+
+.bio {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+
+.bio a {
+  color: #000;
+}
+
+.bio strong {
+  font-weight: 600;
+  color: #000;
+}
+
+.personal {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 44px;
+}
+
+/* === Sections === */
+.section-divider {
+  border-top: 1px solid #eee;
+  padding-top: 28px;
+  margin-bottom: 36px;
+}
+
+.section-label {
+  font-weight: 600;
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* === Post List (Writing Page + Homepage) === */
+.post-item {
+  margin-bottom: 16px;
+}
+
+.post-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.post-title {
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.post-title:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.post-external-badge {
+  font-size: 11px;
+  color: #999;
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.post-date {
+  font-size: 13px;
+  color: #999;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+.post-cat {
+  font-size: 13px;
+  color: #666;
+  margin-top: 3px;
+}
+
+.post-desc {
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.year-label {
+  font-weight: 600;
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 14px;
+  margin-top: 28px;
+}
+
+.year-label:first-child {
+  margin-top: 0;
+}
+
+.all-link {
+  font-size: 14px;
+  color: #555;
+  margin-top: 16px;
+}
+
+.all-link a {
+  color: #555;
+}
+
+/* === Category Pills === */
+.pill-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background: #f3f3f3;
+  color: #555;
+}
+
+.pill.active {
+  background: #000;
+  color: #fff;
+}
+
+/* === Project List === */
+.project-row {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 20px;
+}
+
+.project-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  min-width: 155px;
+  text-decoration: none;
+}
+
+.project-name:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.project-desc {
+  font-size: 14px;
+  color: #666;
+}
+
+/* === Talks === */
+.talk-item {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.talk-item:last-child {
+  border-bottom: none;
+}
+
+.talk-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.talk-meta {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.talk-links {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+}
+
+.talk-links a {
+  color: #555;
+}
+
+/* === Research / Publications === */
+.pub-item {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pub-item:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.pub-authors {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.pub-venue {
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+}
+
+.pub-links {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.pub-links a {
+  color: #555;
+}
+
+/* === About Page === */
+.about-section {
+  margin-bottom: 28px;
+}
+
+.about-section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.75;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.timeline-date {
+  color: #999;
+  min-width: 110px;
+  font-size: 13px;
+}
+
+.timeline-content {
+  color: #444;
+}
+
+.timeline-content strong {
+  color: #000;
+  font-weight: 600;
+}
+
+/* === Books === */
+.book-category {
+  margin-bottom: 20px;
+}
+
+.book-category-label {
+  font-weight: 600;
+  font-size: 11px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  margin-top: 16px;
+}
+
+.book-item {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.book-title {
+  color: #000;
+  font-weight: 500;
+}
+
+.book-author {
+  color: #888;
+}
+
+/* === Blog Post (Single) === */
+.post-meta {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.post-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  margin: 0 0 24px 0;
+}
+
+.post-content {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.8;
+}
+
+.post-content h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  margin: 32px 0 16px;
+}
+
+.post-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin: 28px 0 12px;
+}
+
+.post-content h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 24px 0 8px;
+}
+
+.post-content p {
+  margin-bottom: 16px;
+}
+
+.post-content ul, .post-content ol {
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+.post-content li {
+  margin-bottom: 6px;
+}
+
+.post-content blockquote {
+  border-left: 3px solid #e0e0e0;
+  padding-left: 16px;
+  margin: 16px 0;
+  color: #666;
+  font-style: italic;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 16px 0;
+}
+
+.post-content pre {
+  background: #f8f8f8;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 16px;
+  overflow-x: auto;
+  margin: 16px 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.post-content code {
+  font-family: 'JetBrains Mono', ui-monospace, 'Cascadia Code', 'Fira Code', monospace;
+  font-size: 0.9em;
+}
+
+.post-content p code, .post-content li code {
+  background: #f3f3f3;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.post-content a {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.post-tags {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.post-tag {
+  background: #f3f3f3;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+}
+
+.post-tag:hover {
+  background: #e8e8e8;
+  text-decoration: none;
+}
+
+/* === Footer === */
+.footer {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  margin-top: 36px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #888;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.footer-love {
+  font-size: 12px;
+  color: #bbb;
+}
+
+/* === Responsive === */
+@media (max-width: 640px) {
+  .container {
+    padding: 32px 20px;
+  }
+
+  .nav {
+    margin-bottom: 40px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    font-size: 13px;
+  }
+
+  .hero-static, .hero-flip-list li {
+    font-size: 22px;
+  }
+
+  .hero-flip-container {
+    height: 32px;
+  }
+
+  .hero-flip-list li {
+    height: 32px;
+  }
+
+  @keyframes flipDown {
+    0%, 20%   { transform: translateY(0); }
+    25%, 45%  { transform: translateY(-32px); }
+    50%, 70%  { transform: translateY(-64px); }
+    75%, 95%  { transform: translateY(-96px); }
+    100%      { transform: translateY(-128px); }
+  }
+
+  .post-row {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .post-date {
+    margin-left: 0;
+  }
+
+  .project-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .post-header h1 {
+    font-size: 24px;
+  }
+}
+
+/* === Focus Indicators (Accessibility) === */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
