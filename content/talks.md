@@ -37,6 +37,7 @@ Talks I've given at meetups and community events on software security, static an
   <div class="talk-meta">null Chennai, OWASP Combined Meet, Chennai, India, March 2019</div>
   <div class="talk-links">
     <a href="https://null.community/event_sessions/2522-exploiting-provider-components-in-android-app-for-bug-bounties">event page</a>
+    <a href="https://www.youtube.com/watch?v=3KiLmk265R8&list=PLE9zv6l7vb_VBh0NVv2m0vfahQOmUqaMC">video</a>
   </div>
 </div>
 
