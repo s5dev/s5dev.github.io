@@ -9,7 +9,7 @@ slug: "llm-powered-security-reviews"
 
 ### Introduction
 
-In a previous post on the [Sherlock blog](https://shivasurya.me/security-reviews/sast/2024/06/27/automate-security-code-reviews-with-cody-ai.html), I discussed leveraging large language models (LLMs) to assist with security code reviews. There's no doubt that LLMs outperform traditional static application security testing (SAST) tools in several ways, enhancing the security review process by:
+In a previous post on the [Sherlock blog](https://shivasurya.me/security-reviews/sast/2024/06/27/automate-security-code-reviews-with-cody-ai.html), I discussed leveraging large language models (LLMs) to assist with security code reviews. There’s no doubt that LLMs outperform traditional static application security testing (SAST) tools in several ways, enhancing the security review process by:
 
 - Reducing false positive rates  
 - Increasing the accuracy of findings  
@@ -22,9 +22,9 @@ As I continue to explore research publications, delve into the internals of LLMs
 - **RQ1. How can we mathematically prove the reliability of LLM findings?**
 - **RQ2. Can LLMs fail to identify certain edge cases or vulnerabilities? How can we mitigate this?**
 - **RQ3. What techniques are being used to provide additional context for security reviews?**
-- **RQ4. If LLMs are so effective, why aren't they widely used to find vulnerabilities in open-source software (OSS)?**
+- **RQ4. If LLMs are so effective, why aren’t they widely used to find vulnerabilities in open-source software (OSS)?**
 
-Below, I'll share my thoughts on these questions and how I approach leveraging LLMs for security reviews.
+Below, I’ll share my thoughts on these questions and how I approach leveraging LLMs for security reviews.
 
 ---
 
@@ -45,7 +45,7 @@ To the best of my knowledge, there is currently no direct way to mathematically 
 
 #### RQ2: Can LLMs fail to identify certain edge cases or vulnerabilities? How can we mitigate this?
 
-Yes, LLMs can sometimes miss vulnerable patterns or edge cases. This is often attributed to their non-deterministic nature, which stems from floating-point calculations and inherent randomness. While there's no definitive mathematical explanation for these misses, here are some ways to mitigate them:
+Yes, LLMs can sometimes miss vulnerable patterns or edge cases. This is often attributed to their non-deterministic nature, which stems from floating-point calculations and inherent randomness. While there’s no definitive mathematical explanation for these misses, here are some ways to mitigate them:
 
 - **Providing additional context** to the LLM.  
 - **Incorporating more example data during fine-tuning**, though this risks overfitting the model.  
@@ -73,13 +73,13 @@ This is a fascinating area where many companies and individuals are employing si
 
 ---
 
-#### RQ4: If LLMs are so effective, why aren't they widely used to find vulnerabilities in OSS?
+#### RQ4: If LLMs are so effective, why aren’t they widely used to find vulnerabilities in OSS?
 
-This is a question I'm surprised more people aren't asking. Many seem to dismiss the idea of combining LLMs with security living in their own bubble. So, here are few evidence that it's working:
+This is a question I’m surprised more people aren’t asking. Many seem to dismiss the idea of combining LLMs with security living in their own bubble. So, here are few evidence that it's working:
 
 - **XBOW Security**, founded by former CodeQL builders, appears to be quietly hunting low-hanging vulnerabilities. [Source](https://github.com/advisories?query=credit%3Axbow-security)  
-    - I'm curious about the sophistication of their automation and token usage.  
-- Google's Project Zero has explored this space in their blog post, [From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html).  
+    - I’m curious about the sophistication of their automation and token usage.  
+- Google’s Project Zero has explored this space in their blog post, [From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html).  
 
 ---
 

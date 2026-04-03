@@ -85,7 +85,7 @@ print(predicted_output)
 #### Output
 
 ```shell
-(.venv)  shiva@shivasurya ~/src/shivasurya/xor_project  python3 train.py         
+(.venv)  shiva@shivasurya ~/src/shivasurya/xor_project  python3 train.py         
 Starting training...
 Training complete. Weights have been saved.
 
@@ -94,7 +94,7 @@ Final output after training:
  [0.92688325]
  [0.92005246]
  [0.05933504]]
-(.venv)  shiva@shivasurya ~/src/shivasurya/xor_project  python3 inference.py
+(.venv)  shiva@shivasurya ~/src/shivasurya/xor_project  python3 inference.py
 enter left operand
 1
 enter right operand
