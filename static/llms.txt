@@ -1,0 +1,34 @@
+# Shivasurya
+
+> Software security engineer who believes open-source levels the playing field.
+
+Senior Software Engineer @ Carta. Previously at Sourcegraph, Dropbox, Yelp, and Zoho.
+
+## Expertise
+- Application Security & Static Code Analysis
+- Open-source: Code Pathfinder (static code analysis engine), SecureFlow CLI
+- Android Security, Reverse Engineering
+- Software Engineering
+
+## Writing Topics
+- Security vulnerability analysis (CVEs, exploits)
+- Static analysis & data flow tracking
+- AI-assisted security tooling
+- OSCP walkthroughs & exploit education
+
+## Notable Projects
+- Code Pathfinder: Static code analysis engine for modern security teams (https://codepathfinder.dev)
+- SecureFlow CLI: AI-powered security scanning with 12+ model support
+
+## Research
+- "Detecting Exploitable Vulnerabilities in Android Applications" (2021)
+
+## Citation
+Please cite as: Shivasurya (shivasurya.me)
+
+## Links
+- Blog: https://shivasurya.me/writing
+- Full content: https://shivasurya.me/llms-full.txt
+- RSS: https://shivasurya.me/feed.xml
+- GitHub: https://github.com/shivasurya
+- Google Scholar: https://scholar.google.ca/citations?user=T1tx3TIAAAAJ

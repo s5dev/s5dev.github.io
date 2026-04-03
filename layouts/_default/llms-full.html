@@ -1,0 +1,17 @@
+{{ define "main" }}
+<pre style="white-space: pre-wrap; font-family: monospace; font-size: 14px; color: #444;">
+# Shivasurya - Full Content Index
+
+> Software security engineer who believes open-source levels the playing field.
+
+## All Blog Posts
+{{ range (where .Site.RegularPages "Section" "posts") }}
+### {{ .Title }}
+- Date: {{ .Date.Format "2006-01-02" }}
+- URL: {{ .Permalink }}
+{{ with .Description }}- Description: {{ . }}{{ end }}
+{{ with .Params.categories }}- Categories: {{ delimit . ", " }}{{ end }}
+{{ with .Params.tags }}- Tags: {{ delimit . ", " }}{{ end }}
+{{ end }}
+</pre>
+{{ end }}

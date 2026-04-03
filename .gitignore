@@ -4,3 +4,7 @@ Gemfile.lock
 .DS_Store
 .bundle/
 vendor/
+.superpowers/
+public/
+resources/
+.hugo_build.lock

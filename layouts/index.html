@@ -1,0 +1,45 @@
+{{ define "schema" }}
+{{ partial "schema-person.html" . }}
+{{ end }}
+
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+<!-- Recent Writing -->
+<div class="section-divider">
+  <div class="section-label">Recent Writing</div>
+  {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+  <div class="post-item">
+    <div class="post-row">
+      {{ if .Params.external_url }}
+      <a href="{{ .Params.external_url }}" class="post-title" target="_blank" rel="noopener">
+        {{ .Title }} <span class="post-external-badge">↗ {{ with urls.Parse .Params.external_url }}{{ .Host }}{{ end }}</span>
+      </a>
+      {{ else }}
+      <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
+      {{ end }}
+      <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    </div>
+    {{ with .Params.categories }}
+    <div class="post-cat">{{ delimit . " · " }}</div>
+    {{ end }}
+  </div>
+  {{ end }}
+  <div class="all-link"><a href="/writing/">All writing</a> →</div>
+</div>
+
+<!-- Notable Projects -->
+<div class="section-divider">
+  <div class="section-label">Notable Projects</div>
+  <div class="project-row">
+    <a href="https://codepathfinder.dev" class="project-name" target="_blank" rel="noopener">Code Pathfinder ↗</a>
+    <span class="project-desc">Static code analysis engine for modern security teams</span>
+  </div>
+  <div class="project-row">
+    <a href="https://codepathfinder.dev/secureflow-ai" class="project-name" target="_blank" rel="noopener">SecureFlow CLI ↗</a>
+    <span class="project-desc">AI-powered security scanning with 12+ model support</span>
+  </div>
+</div>
+
+{{ end }}

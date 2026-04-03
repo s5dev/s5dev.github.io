@@ -1,0 +1,15 @@
+<nav class="nav" aria-label="Main navigation">
+  <div>
+    <a href="/" class="nav-name">{{ .Site.Title }}</a>
+    {{ with .Params.navTitle }}
+    <span class="nav-title">/ {{ . }}</span>
+    {{ end }}
+  </div>
+  <ul class="nav-links">
+    {{ range .Site.Menus.main }}
+    <li>
+      <a href="{{ .URL }}"{{ if eq $.RelPermalink .URL }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>
