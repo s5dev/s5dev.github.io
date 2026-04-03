@@ -1,7 +1,7 @@
 ---
 title: "About"
 navTitle: "About"
-description: "About Shivasurya — software security engineer based in Waterloo, Canada."
+description: "About Shivasurya, software security engineer based in Waterloo, Canada."
 url: "/about/"
 ---
 
@@ -35,19 +35,19 @@ I write about security vulnerabilities, static analysis, and the craft of buildi
 
 <div class="timeline-item">
   <span class="timeline-date">present</span>
-  <span class="timeline-content"><strong>Carta</strong> — Senior Software Engineer, Security</span>
+  <span class="timeline-content"><strong>Carta</strong>, Senior Software Engineer, Security</span>
 </div>
 <div class="timeline-item">
   <span class="timeline-date">Jun 2023 – 2025</span>
-  <span class="timeline-content"><strong>Sourcegraph</strong> — Security Engineer</span>
+  <span class="timeline-content"><strong>Sourcegraph</strong>, Security Engineer</span>
 </div>
 <div class="timeline-item">
   <span class="timeline-date">Jun 2022 – Jun 2023</span>
-  <span class="timeline-content"><strong>Dropbox</strong> — Software Security Engineer, Application Security</span>
+  <span class="timeline-content"><strong>Dropbox</strong>, Software Security Engineer, Application Security</span>
 </div>
 <div class="timeline-item">
   <span class="timeline-date">Jun 2021 – Jun 2022</span>
-  <span class="timeline-content"><strong>Yelp</strong> — Software Engineer, Application Security</span>
+  <span class="timeline-content"><strong>Yelp</strong>, Software Engineer, Application Security</span>
 </div>
 
 </div>
@@ -58,7 +58,7 @@ I write about security vulnerabilities, static analysis, and the craft of buildi
 
 <div class="timeline-item">
   <span class="timeline-date">2018 – 2020</span>
-  <span class="timeline-content"><strong>University of Waterloo</strong> — MASc, Electrical & Computer Engineering</span>
+  <span class="timeline-content"><strong>University of Waterloo</strong>, MASc, Electrical & Computer Engineering</span>
 </div>
 
 </div>
