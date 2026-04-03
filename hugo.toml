@@ -2,6 +2,7 @@ baseURL = "https://shivasurya.me/"
 languageCode = "en-us"
 title = "Shivasurya"
 description = "Software security engineer who believes open-source levels the playing field."
+disablePathToLower = true
 
 [params]
   author = "Shivasurya"
