@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div style="margin-bottom: 32px;">
+  <p style="font-size: 15px; color: #555; line-height: 1.7;">
+    Blog posts on security, static analysis, AI, and software engineering.
+  </p>
+</div>
+
+<!-- Category filter pills -->
+<div class="pill-row">
+  <a href="/writing/" class="pill active">All</a>
+  {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+  <a href="/categories/{{ $name | urlize }}/" class="pill">{{ $name | humanize }}</a>
+  {{ end }}
+</div>
+
+<!-- Posts grouped by year -->
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ range $posts.GroupByDate "2006" }}
+<div class="year-label">{{ .Key }}</div>
+{{ range .Pages }}
+<div class="post-item">
+  <div class="post-row">
+    {{ if .Params.external_url }}
+    <a href="{{ .Params.external_url }}" class="post-title" target="_blank" rel="noopener">
+      {{ .Title }} <span class="post-external-badge">↗ {{ with urls.Parse .Params.external_url }}{{ .Host }}{{ end }}</span>
+    </a>
+    {{ else }}
+    <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
+    {{ end }}
+    <span class="post-date">{{ .Date.Format "Jan 2" }}</span>
+  </div>
+  {{ with .Description }}
+  <div class="post-desc">{{ . }}</div>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}
+
+{{ end }}
