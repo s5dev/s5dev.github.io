@@ -7,6 +7,21 @@ url: "/books/"
 
 Books I've read, loosely grouped by year. Heavy Kindle reader, always open to recommendations.
 
+## 2026
+
+<div class="book-category">
+<div class="book-category-label">Investing</div>
+
+<div class="book-item"><a href="https://www.amazon.com/Fairfax-Way-Inside-Lasting-Success/dp/1037802195" class="book-title">The Fairfax Way: Inside Prem Watsa's Secret to Lasting Success</a> <span class="book-author">by David Thomas</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/34673040-university-of-berkshire-hathaway" class="book-title">University of Berkshire Hathaway</a> <span class="book-author">by Daniel Pecaut & Corey Wrenn</span></div>
+</div>
+
+<div class="book-category">
+<div class="book-category-label">AI & Engineering</div>
+
+<div class="book-item"><a href="https://www.baseten.co/inference-engineering/" class="book-title">Inference Engineering</a> <span class="book-author">by Philip Kiely (Baseten)</span></div>
+</div>
+
 ## 2025
 
 <div class="book-category">
