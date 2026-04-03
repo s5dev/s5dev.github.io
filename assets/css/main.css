@@ -81,7 +81,7 @@ a:hover {
 }
 
 .nav-title {
-  color: #999;
+  color: #767676;
   font-size: 18px;
   font-weight: 400;
 }
@@ -211,14 +211,14 @@ a:hover {
 
 .post-external-badge {
   font-size: 11px;
-  color: #999;
+  color: #767676;
   font-weight: 400;
   margin-left: 6px;
 }
 
 .post-date {
   font-size: 13px;
-  color: #999;
+  color: #767676;
   white-space: nowrap;
   margin-left: 20px;
 }
@@ -231,7 +231,7 @@ a:hover {
 
 .post-desc {
   font-size: 13px;
-  color: #888;
+  color: #767676;
   font-style: italic;
   margin-top: 2px;
 }
@@ -239,7 +239,7 @@ a:hover {
 .year-label {
   font-weight: 600;
   font-size: 13px;
-  color: #999;
+  color: #767676;
   margin-bottom: 14px;
   margin-top: 28px;
 }
@@ -368,7 +368,7 @@ a:hover {
 
 .pub-venue {
   font-size: 13px;
-  color: #888;
+  color: #767676;
   font-style: italic;
 }
 
@@ -409,7 +409,7 @@ a:hover {
 }
 
 .timeline-date {
-  color: #999;
+  color: #767676;
   min-width: 110px;
   font-size: 13px;
 }
@@ -431,7 +431,7 @@ a:hover {
 .book-category-label {
   font-weight: 600;
   font-size: 11px;
-  color: #999;
+  color: #767676;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 10px;
@@ -449,13 +449,13 @@ a:hover {
 }
 
 .book-author {
-  color: #888;
+  color: #767676;
 }
 
 /* === Blog Post (Single) === */
 .post-meta {
   font-size: 13px;
-  color: #999;
+  color: #767676;
   margin-bottom: 8px;
 }
 
@@ -589,7 +589,7 @@ a:hover {
 }
 
 .footer-links a {
-  color: #888;
+  color: #767676;
   text-decoration: none;
 }
 
@@ -599,7 +599,7 @@ a:hover {
 
 .footer-love {
   font-size: 12px;
-  color: #bbb;
+  color: #767676;
 }
 
 /* === Responsive === */
