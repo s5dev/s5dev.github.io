@@ -2,7 +2,7 @@
 
 > Software security engineer who believes open-source levels the playing field.
 
-Senior Software Engineer, Security @ Carta. Previously at Dropbox and Yelp.
+Senior Software Engineer, Security @ Carta. Previously at Sourcegraph, Dropbox, and Yelp.
 
 ## Expertise
 - Application Security & Static Code Analysis

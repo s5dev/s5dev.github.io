@@ -8,7 +8,7 @@ url: "/about/"
 <div class="about-section">
 <div class="about-text">
 
-I'm a software security engineer based in Waterloo, Canada. I work at [Carta](https://carta.com) where I focus on application security. Before that, I was at Dropbox and Yelp.
+I'm a software security engineer based in Waterloo, Canada. I work at [Carta](https://carta.com) where I focus on application security. Previously at Sourcegraph, Dropbox, and Yelp.
 
 </div>
 </div>
@@ -34,16 +34,20 @@ I write about security vulnerabilities, static analysis, and the craft of buildi
 ### Experience
 
 <div class="timeline-item">
-  <span class="timeline-date">2022 – present</span>
+  <span class="timeline-date">present</span>
   <span class="timeline-content"><strong>Carta</strong> — Senior Software Engineer, Security</span>
 </div>
 <div class="timeline-item">
-  <span class="timeline-date">2020 – 2022</span>
-  <span class="timeline-content"><strong>Dropbox</strong> — Software Engineer</span>
+  <span class="timeline-date">Jun 2023 – 2025</span>
+  <span class="timeline-content"><strong>Sourcegraph</strong> — Security Engineer</span>
 </div>
 <div class="timeline-item">
-  <span class="timeline-date">2019 – 2020</span>
-  <span class="timeline-content"><strong>Yelp</strong> — Software Engineer</span>
+  <span class="timeline-date">Jun 2022 – Jun 2023</span>
+  <span class="timeline-content"><strong>Dropbox</strong> — Software Security Engineer, Application Security</span>
+</div>
+<div class="timeline-item">
+  <span class="timeline-date">Jun 2021 – Jun 2022</span>
+  <span class="timeline-content"><strong>Yelp</strong> — Software Engineer, Application Security</span>
 </div>
 
 </div>
