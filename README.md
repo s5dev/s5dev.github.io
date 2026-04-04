@@ -1,37 +1,41 @@
-dbyll
-=====
+# shivasurya.me
 
-Open source stylish, minimalistic theme for jekyll.  
-Demo: http://dbtek.github.io/dbyll/
+Personal website and blog built with [Hugo](https://gohugo.io/).
 
-## New
-- Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
-- :new: Check out [Paper](https://github.com/dbtek/paper), new Material Design Jekyll theme.
+## Local Development
 
-### Features
-- Responsive layout.
-- Supports tags and categories.
-- Social profile and bio of author.
-- Bootstrap based.
-- Glyphicon and Font-Awesome Icons.
-- Pagination.
-- Syntax highlighting with pygments.
-- Disqus comments.
-- :new: Custom sidebar background image.
+```bash
+# Install Hugo (https://gohugo.io/installation/)
+brew install hugo  # macOS
+# or
+go install github.com/gohugoio/hugo@latest
 
+# Run dev server
+hugo server -D
 
-### Download
-* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
+# Build for production
+hugo --gc --minify
+```
 
-### Install
-- You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) installed in your system.
-- Install bundler which helps in specifying and installing dependencies of any Ruby project. ```gem install bundler```
-- Go to the root of the repo and run this - ```bundle install```
-- Then - ```bundle exec jekyll serve```
+## Structure
 
-### Screenshots
-![dbyll-screenshot](assets/media/dbyll-ss.png)
+```
+content/
+  posts/       # Blog posts
+  about.md     # About page
+  books.md     # Reading list
+  projects.md  # Open-source projects
+  research.md  # Publications
+  talks.md     # Conference talks
+layouts/       # Hugo templates
+assets/css/    # Stylesheet
+static/        # Static files (favicon, llms.txt, robots.txt)
+```
 
-### License
-- [MIT](http://opensource.org/licenses/MIT)
+## Deployment
 
+Deployed via GitHub Actions to GitHub Pages. Push to `master` triggers automatic build and deploy.
+
+## License
+
+Blog content is copyrighted. Site code is MIT licensed.

@@ -119,7 +119,7 @@ a:hover {
 }
 
 .hero-flip-container {
-  height: 38px;
+  height: 76px;
   overflow: hidden;
   margin-bottom: 24px;
 }
@@ -130,9 +130,9 @@ a:hover {
 }
 
 .hero-flip-list li {
-  height: 38px;
+  height: 76px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   font-size: 27px;
   font-weight: 700;
   letter-spacing: -0.5px;
@@ -142,10 +142,10 @@ a:hover {
 
 @keyframes flipDown {
   0%, 20%   { transform: translateY(0); }
-  25%, 45%  { transform: translateY(-38px); }
-  50%, 70%  { transform: translateY(-76px); }
-  75%, 95%  { transform: translateY(-114px); }
-  100%      { transform: translateY(-152px); }
+  25%, 45%  { transform: translateY(-76px); }
+  50%, 70%  { transform: translateY(-152px); }
+  75%, 95%  { transform: translateY(-228px); }
+  100%      { transform: translateY(-304px); }
 }
 
 .bio {
@@ -622,19 +622,19 @@ a:hover {
   }
 
   .hero-flip-container {
-    height: 32px;
+    height: 64px;
   }
 
   .hero-flip-list li {
-    height: 32px;
+    height: 64px;
   }
 
   @keyframes flipDown {
     0%, 20%   { transform: translateY(0); }
-    25%, 45%  { transform: translateY(-32px); }
-    50%, 70%  { transform: translateY(-64px); }
-    75%, 95%  { transform: translateY(-96px); }
-    100%      { transform: translateY(-128px); }
+    25%, 45%  { transform: translateY(-64px); }
+    50%, 70%  { transform: translateY(-128px); }
+    75%, 95%  { transform: translateY(-192px); }
+    100%      { transform: translateY(-256px); }
   }
 
   .post-row {
