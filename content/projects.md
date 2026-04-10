@@ -59,11 +59,16 @@ Open-source tools and projects I've built.
 
 <div class="project-row">
   <a href="https://hackerone.com/libcontainer" class="project-name" target="_blank" rel="noopener">HackerOne ↗</a>
-  <span class="project-desc">Responsible vulnerability disclosure</span>
+  <span class="project-desc">Acknowledged by Dropbox, Twitter (X), Google Play VRP, Zomato, and others</span>
 </div>
 
 <div class="project-row">
   <a href="https://proton.me/blog/protonmail-security-contributors" class="project-name" target="_blank" rel="noopener">ProtonMail Security Contributors ↗</a>
   <span class="project-desc">Recognized for responsible disclosure to ProtonMail</span>
+</div>
+
+<div class="project-row">
+  <a href="https://msrc.microsoft.com/update-guide/acknowledgement/online" class="project-name" target="_blank" rel="noopener">Microsoft MSRC Acknowledgement ↗</a>
+  <span class="project-desc">Acknowledged for Online Services vulnerabilities (Jul 2018, Nov 2018)</span>
 </div>
 </div>
