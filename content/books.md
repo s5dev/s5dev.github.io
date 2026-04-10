@@ -26,6 +26,7 @@ Books I've read, loosely grouped by year. Heavy Kindle reader, always open to re
 <div class="book-category-label">Non-Fiction</div>
 
 <div class="book-item"><a href="https://www.goodreads.com/book/show/3828902-thinking-in-systems" class="book-title">Thinking in Systems: A Primer</a> <span class="book-author">by Donella H. Meadows</span></div>
+<div class="book-item"><a href="https://www.goodreads.com/book/show/237134711-runnin-down-a-dream" class="book-title">Runnin' Down a Dream: How to Thrive in a Career You Actually Love</a> <span class="book-author">by Bill Gurley</span></div>
 </div>
 
 ## 2025
